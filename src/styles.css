@@ -1,0 +1,87 @@
+.App {
+  font-family: "SF Pro Display", arial, sans-serif;
+  text-align: center;
+  padding: 0 1rem;
+}
+.material-icons {
+  font-size: 1rem;
+  transform: translateY(0.1rem);
+}
+@media (min-width: 769px) {
+  .mobileColumnGroup {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .rowHeader {
+    display: none;
+  }
+}
+.tableContainer {
+  overflow: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+thead tr {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.rowHeader,
+[scope="colgroup"] span {
+  left: 0;
+  position: sticky;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+th:not(th:last-child),
+td:not(td:last-child) {
+  min-width: 7rem;
+}
+h1 {
+  font-weight: 500;
+}
+th {
+  font-weight: 500;
+}
+td {
+  font-weight: 400;
+}
+.mobileColumnGroup th {
+  background-color: lightgray;
+}
+.risk,
+.followed {
+  color: tomato;
+}
+.stars {
+  color: gold;
+}
+.sustainability {
+  color: limegreen;
+}
+.empty {
+  color: darkgrey;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: tomato;
+  cursor: pointer;
+}
+th:last-child:not(th:first-child),
+td:last-child {
+  width: 1rem;
+}
