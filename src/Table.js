@@ -27,7 +27,7 @@ const Table = () => {
             <th scope="row" className="rowHeader">
               Fund 1
             </th>
-            <td alt="Level 5">
+            <td aria-label="Level 5">
               <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
               <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
               <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
