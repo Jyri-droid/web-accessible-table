@@ -28,12 +28,12 @@ const Table = () => {
               Fund 1
             </th>
             <td aria-label="Level 5">
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
-              <span className="risk material-icons" aria-hidden="true">noise_control_off</span>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
             </td>
             <td>
               <span className="stars material-icons">star</span>
