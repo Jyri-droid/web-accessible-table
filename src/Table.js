@@ -20,7 +20,7 @@ const Table = () => {
         <tbody>
           <tr className="mobileColumnGroup">
             <th scope="colgroup" colSpan="6">
-              <span>Fund 1X</span>
+              <span>Fund 1</span>
             </th>
           </tr>
 
@@ -49,7 +49,7 @@ const Table = () => {
 
           <tr className="mobileColumnGroup">
             <th scope="colgroup" colSpan="6">
-              <span>Fund 2X</span>
+              <span>Fund 2</span>
             </th>
           </tr>
 
@@ -78,7 +78,7 @@ const Table = () => {
 
           <tr className="mobileColumnGroup">
             <th scope="colgroup" colSpan="6">
-              <span>Fund 3X</span>
+              <span>Fund 3</span>
             </th>
           </tr>
 
@@ -107,7 +107,7 @@ const Table = () => {
 
           <tr className="mobileColumnGroup">
             <th scope="colgroup" colSpan="6">
-              <span>Fund 4X</span>
+              <span>Fund 4</span>
             </th>
           </tr>
 
