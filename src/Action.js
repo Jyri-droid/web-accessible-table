@@ -9,6 +9,7 @@ const Action = () => {
     <button
       onClick={handleClick}
       className={`material-icons ${!toggle && `empty`}`}
+      aria-label="Favourite"
     >
       {toggle ? "star" : "star_border"}
     </button>
