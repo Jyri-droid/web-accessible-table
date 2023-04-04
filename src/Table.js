@@ -8,7 +8,7 @@ const Table = () => {
         <caption></caption>
         <thead>
           <tr>
-            <th scope="col">Name</th>
+            <th scope="col" id="name">Name</th>
             <th scope="col">Risk</th>
             <th scope="col">Rating</th>
             <th scope="col">Sustainability</th>
@@ -28,7 +28,7 @@ const Table = () => {
             <th scope="row" className="rowHeader">
               Fund 1
             </th>
-            <td>
+            <td headers="name">
               <span title="Level 6" />
               <IconGroup amount={6} type="risk" name="noise_control_off"/>
             </td>
