@@ -29,13 +29,15 @@ const Table = () => {
               Fund 1
             </th>
             <td>
-              <span aria-label="Level 6" />
+              <span title="Level 6" />
               <IconGroup amount={6} type="risk" name="noise_control_off"/>
             </td>
             <td>
+              <span title="Level 5" />
               <IconGroup amount={5} type="stars" name="star"/>
             </td>
             <td>
+              <span title="Level 1" />
               <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
@@ -56,12 +58,15 @@ const Table = () => {
               Fund 2
             </th>
             <td>
+            <span title="Level 4" />
               <IconGroup amount={4} type="risk" name="noise_control_off"/>
             </td>
             <td>
+            <span title="Level 3" />
               <IconGroup amount={3} type="stars" name="star"/>
             </td>
             <td>
+            <span title="Level 1" />
               <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
@@ -82,12 +87,15 @@ const Table = () => {
               Fund 3
             </th>
             <td>
+              <span title="Level 3" />
               <IconGroup amount={3} type="risk" name="noise_control_off"/>
             </td>
             <td>
+              <span title="Level 4" />
               <IconGroup amount={4} type="stars" name="star"/>
             </td>
             <td>
+              <span title="Level 2" />
               <IconGroup amount={2} type="sustainability" name="spa"/>
             </td>
             <td>Index</td>
@@ -108,12 +116,15 @@ const Table = () => {
               Fund 4
             </th>
             <td>
+              <span title="Level 6" />
               <IconGroup amount={6} type="risk" name="noise_control_off"/>
             </td>
             <td>
+              <span title="Level 3" /> 
               <IconGroup amount={3} type="stars" name="star"/>
             </td>
             <td>
+            <span title="Level 3" />
               <IconGroup amount={3} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
