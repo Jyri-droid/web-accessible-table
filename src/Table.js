@@ -1,3 +1,4 @@
+import IconGroup  from "./IconGroup";
 import Action from "./Action";
 
 const Table = () => {
@@ -7,7 +8,7 @@ const Table = () => {
         <caption></caption>
         <thead>
           <tr>
-            <th scope="col">Name</th>
+            <th scope="col"></th>
             <th scope="col">Risk</th>
             <th scope="col">Rating</th>
             <th scope="col">Sustainability</th>
@@ -28,22 +29,13 @@ const Table = () => {
               Fund 1
             </th>
             <td aria-label="Level 5">
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
-              <i className="risk material-icons" aria-hidden="true">noise_control_off</i>
+              <IconGroup amount={6} type="risk" name="noise_control_off"/>
             </td>
             <td>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
+              <IconGroup amount={5} type="stars" name="star"/>
             </td>
             <td>
-              <span className="sustainability material-icons">spa</span>
+              <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
             <td>Global</td>
@@ -63,20 +55,13 @@ const Table = () => {
               Fund 2
             </th>
             <td>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
+              <IconGroup amount={4} type="risk" name="noise_control_off"/>
             </td>
             <td>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
+              <IconGroup amount={3} type="stars" name="star"/>
             </td>
             <td>
-              <span className="sustainability material-icons">spa</span>
-              <span className="sustainability material-icons">spa</span>
-              <span className="sustainability material-icons">spa</span>
+              <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
             <td>The Nordics</td>
@@ -96,19 +81,13 @@ const Table = () => {
               Fund 3
             </th>
             <td>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
+              <IconGroup amount={3} type="risk" name="noise_control_off"/>
             </td>
             <td>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
+              <IconGroup amount={4} type="stars" name="star"/>
             </td>
             <td>
-              <span className="sustainability material-icons">spa</span>
-              <span className="sustainability material-icons">spa</span>
+              <IconGroup amount={2} type="sustainability" name="spa"/>
             </td>
             <td>Index</td>
             <td>Global</td>
@@ -128,22 +107,13 @@ const Table = () => {
               Fund 4
             </th>
             <td>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
-              <span className="risk material-icons">noise_control_off</span>
+              <IconGroup amount={6} type="risk" name="noise_control_off"/>
             </td>
             <td>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
-              <span className="stars material-icons">star</span>
+              <IconGroup amount={3} type="stars" name="star"/>
             </td>
             <td>
-              <span className="sustainability material-icons">spa</span>
-              <span className="sustainability material-icons">spa</span>
-              <span className="sustainability material-icons">spa</span>
+              <IconGroup amount={3} type="sustainability" name="spa"/>
             </td>
             <td>Stock</td>
             <td>Global</td>
