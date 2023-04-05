@@ -8,7 +8,7 @@ const Table = () => {
         <caption></caption>
         <thead>
           <tr>
-            <th scope="col" id="name">Name</th>
+            <th scope="col">Name</th>
             <th scope="col">Risk</th>
             <th scope="col">Rating</th>
             <th scope="col">Sustainability</th>
@@ -19,7 +19,7 @@ const Table = () => {
         </thead>
         <tbody>
           <tr className="mobileColumnGroup">
-            <th scope="colgroup" colSpan="6" id="name-mobile">
+            <th scope="colgroup" colSpan="6">
               <span>Fund 1</span>
             </th>
           </tr>
@@ -28,15 +28,15 @@ const Table = () => {
             <th scope="row" className="rowHeader">
               Fund 1
             </th>
-            <td  headers="name name-mobile">
+            <td>
               <span title="Level 6" />
               <IconGroup amount={6} type="risk" name="noise_control_off" />
             </td>
-            <td  headers="name name-mobile">
+            <td>
               <span title="Level 5" />
               <IconGroup amount={5} type="stars" name="star"/>
             </td>
-            <td  headers="name name-mobile">
+            <td>
               <span title="Level 1" />
               <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
