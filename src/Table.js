@@ -8,7 +8,7 @@ const Table = () => {
         <caption></caption>
         <thead>
           <tr>
-            <th scope="col">Name</th>
+            <th scope="col" id="screenreader-test">Name</th>
             <th scope="col">Risk</th>
             <th scope="col">Rating</th>
             <th scope="col">Sustainability</th>
@@ -19,13 +19,13 @@ const Table = () => {
         </thead>
         <tbody>
           <tr className="mobileColumnGroup">
-            <th scope="colgroup" colSpan="6">
+            <th scope="colgroup" colSpan="6" headers="screenreader-test">
               <span>Fund 1</span>
             </th>
           </tr>
 
           <tr>
-            <th scope="row" className="rowHeader">
+            <th scope="row" className="rowHeader" headers="screenreader-test">
               Fund 1
             </th>
             <td>
