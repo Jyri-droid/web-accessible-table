@@ -13,7 +13,7 @@
   }
 }
 @media (max-width: 769px) {
-  .rowHeader {
+  .rowHeader, .empty-cell {
     display: none;
   }
 }

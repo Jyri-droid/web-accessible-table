@@ -8,13 +8,13 @@ const Table = () => {
         <caption></caption>
         <thead>
           <tr>
-            <th scope="col">Name</th>
+            <th className="empty-cell"></th>
             <th scope="col">Risk</th>
             <th scope="col">Rating</th>
             <th scope="col">Sustainability</th>
             <th scope="col">Type</th>
             <th scope="col">Region</th>
-            <th scope="col"></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
