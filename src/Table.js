@@ -19,30 +19,30 @@ const Table = () => {
         </thead>
         <tbody>
           <tr className="mobileColumnGroup">
-            <th scope="colgroup" colSpan="6" headers="screenreader-test">
+            <th scope="colgroup" colSpan="6">
               <span>Fund 1</span>
             </th>
           </tr>
 
           <tr>
-            <th scope="row" className="rowHeader" headers="screenreader-test">
+            <th scope="row" className="rowHeader">
               Fund 1
             </th>
-            <td>
+            <td  headers="screenreader-test">
               <span title="Level 6" />
-              <IconGroup amount={6} type="risk" name="noise_control_off"/>
+              <IconGroup amount={6} type="risk" name="noise_control_off" />
             </td>
-            <td>
+            <td  headers="screenreader-test">
               <span title="Level 5" />
               <IconGroup amount={5} type="stars" name="star"/>
             </td>
-            <td>
+            <td  headers="screenreader-test">
               <span title="Level 1" />
               <IconGroup amount={1} type="sustainability" name="spa"/>
             </td>
-            <td>Stock</td>
-            <td>Global</td>
-            <td>
+            <td headers="screenreader-test">Stock</td>
+            <td headers="screenreader-test">Global</td>
+            <td headers="screenreader-test">
               <Action />
             </td>
           </tr>
